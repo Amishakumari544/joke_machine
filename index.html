@@ -6,14 +6,25 @@
     <title>Joke Machine</title>
     <link rel="icon" type="image/png" href="toastycharacter.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Container -->
+    <a href="https://github.com/Amishakumari544" class="fa fa-github icon"></a>
+    <a href="https://twitter.com/amishakumari544" class="fa fa-twitter icon"></a>
+    <a href="https://www.linkedin.com/in/amisha-kumari-936a37168/" class="fa fa-linkedin icon"></a>
     <div class="container">
         <!-- Button -->
         <img src="toastycharacter.webp" />
-        <button id="button">Tell me a joke!</button>
+        <button class="btn" id="button">
+            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+              <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+            </svg>
+            <span>Tell me a joke!</span>
+          </button>
+      
         <!-- Audio -->
         <audio id="audio" controls hidden></audio>
     </div>
